@@ -28,7 +28,7 @@ func TestKeyPublic(t *testing.T) {
 
 	p2 := new(Identity)
 	p2toml := new(PublicTOML)
-	_, err := toml.DecodeReader(&writer, p2toml)
+	_, err := toml.NewEncoder(&writer).Encode(p2toml)
 	require.NoError(t, err)
 	require.NoError(t, p2.FromTOML(p2toml))
 
