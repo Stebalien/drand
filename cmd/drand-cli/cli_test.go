@@ -799,7 +799,6 @@ func TestEmptyPortSelectionUsesDefaultDuringKeygen(t *testing.T) {
 	app.Reader = strings.NewReader("\n")
 
 	require.NoError(t, app.Run(args))
-	fmt.Println("Success")
 }
 
 type drandInstance struct {
