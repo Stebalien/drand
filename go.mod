@@ -32,7 +32,7 @@ require (
 	github.com/nikkolasg/hexjson v0.0.0-20181101101858-78e39397e00c
 	github.com/prometheus/client_golang v1.11.0
 	github.com/stretchr/testify v1.7.0
-	github.com/urfave/cli/v2 v2.8.1
+	github.com/urfave/cli/v2 v2.3.0
 	github.com/weaveworks/common v0.0.0-20220302160857-00e2e238a230
 	go.etcd.io/bbolt v1.3.4
 	go.uber.org/zap v1.19.0
