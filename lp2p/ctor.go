@@ -5,11 +5,12 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
-	"github.com/libp2p/go-libp2p"
 	mrand "math/rand"
 	"os"
 	"path"
 	"time"
+
+	"github.com/libp2p/go-libp2p"
 
 	dlog "github.com/drand/drand/log"
 
